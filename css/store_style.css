@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /**
+   * Add your custom styles below
+   * 
+   * Remember: 
+   * - Be organised, use comments and separate your styles into meaningful chunks
+   *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+   * 
+   * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+   */
+  
+  header {
+    bottom: 20px;
+    top: 40px;
+  }
+  
+  .navbar {
+    height:71px;
+    bottom:107px;
+  }
+  nav img {
+    margin-top: 25px;
+    margin-left:30px;
+    height: 40px;
+    top: 9px;
+    max-width: 100%;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    text-align: right;
+    justify-content: flex-end;
+    padding: 0px 50px;
+    color: gray;
+    margin-top: -54px;
+  }
+  
+  li {
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  li:hover {
+    color: rgba(224, 100, 58, 255);
+  }
+  
+  nav li:first-child {
+    font-weight: bold;
+  }
+
+  .desk_image{
+    float:right;
+    width: 701px;
+    height: 1235px;
+    left: 739px;
+    top: 98px;   
+  }
+
+  form{
+    margin-left: 100px;
+  }
+
+  #first_name, #last_name, #address, #address_2, #city, #postcode {
+    display:block;
+    border: 2px solid #666666;
+    border-radius: 4px;
+    height: 35px;
+  }
+  
+  #first_name{
+margin: 0 0 20px 0;
+  }
+
+#address{
+  padding-right: 195px;
+}
+
+#address_2{
+  padding-right: 195px;
+}
+
+#city{
+  padding-right:80px 
+}
+

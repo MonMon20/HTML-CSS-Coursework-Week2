@@ -20,12 +20,16 @@ header {
   top: 40px;
 }
 
-nav {
-  margin-top: 0;
-  position: relative;
-  z-index: 5;
-  height: 71;
-  bottom: 107;
+.navigation {
+  height:71px;
+  bottom:107px;
+}
+nav img {
+  margin-top: 25px;
+  margin-left:30px;
+  height: 40px;
+  top: 9px;
+  max-width: 100%;
 }
 
 ul {
@@ -35,26 +39,16 @@ ul {
   justify-content: flex-end;
   padding: 0px 50px;
   color: gray;
-  position: relative;
-  z-index: 0;
   margin-top: -54px;
 }
 
 li {
   padding: 20px;
-  margin-top: 120px;
+  margin-top: 10px;
 }
 
 li:hover {
   color: rgba(224, 100, 58, 255);
-}
-
-img {
-  height: 40px;
-  top: 9px;
-  position: relative;
-  z-index: 1;
-  left: 213px;
 }
 
 nav li:first-child {
@@ -111,7 +105,7 @@ figcaption {
   font-size: 16px;
   margin-left: 20px;
   margin-top: 22px;
-  margin-right: -83px;
+  margin-right: 21px;
 }
 
 hr {

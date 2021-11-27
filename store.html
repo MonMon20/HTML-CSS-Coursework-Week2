@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Karma</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/store_style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+              <img src="img/karma-logo.svg" alt="Karma logo"/>
+              <ul>
+                <li>Meet Karma</li>
+                <li>How it works</li>
+                <li>Store</li>
+                <li>Blog</li>
+                <li>Help</li>
+                <li>Login</li>
+              </ul>
+            </nav>
+        </header>  
+        <main>
+            <section class="desk_image">
+              <img src="Girl_working_at_desk.png" alt="Girl working at desk" class="desk_image">
+        </section>
+            <section class="heading">
+                <h1> Order your Karma wifi device today!</h1>
+            </section>
+            <div>
+              <form>
+                <div class="name">
+              <label for="first_name"> First Name *</label>
+              <input type="text" name="first_name" id="first_name" minlength="2" required="true">
+              <label for="last_name">Last Name *</label>
+              <input type="text" name="last_name" id="last_name" minlength="2" required="true">
+              </div>
+              <!-- <br/>
+              <br>
+              <br>
+              <br> -->
+              <section>
+              <label for="address">Address *</label>
+              <input type="text" name="address" id="address" minlength="2" required="true">
+              </section>
+              <br>
+              <label for="address_2">Address 2</label>
+              <input type="text" name="address_2" id="address_2" minlength="2" required="true">
+              <br>
+              <div style="float:left;margin-right:20px;">
+              <label for="city">City *</label>
+              <select name="city" id="city" required="true">
+                <option value="select_your_city"><em>Select your city...</em></option>
+              </select>
+              </div>
+              <div style="float:left;">
+              <label for="postcode">Postcode *</label>
+              <input type="text" name="postcode" id="postcode" minlength="2" required="true">
+              </div>
+              <br>
+              <br>
+              <br>
+              <p>Select a color</p>
+              <input type="radio" id="karma_orange" value="karma_orange" name="color">
+              <label for="karma_orange">Karma orange</label>
+              <input type="radio" id="space_grey" value="space_grey" name="color">
+              <label for="space_grey">Space grey</label>
+              <br>
+              <br>
+              <input type="checkbox" id="terms" value="terms" name="terms" required="true">
+              <label for="terms">By placing your order you agree to Karma's Terms and Conditions. *</label>
+              <br>
+              <br>
+              <input type="submit" value="Place my order" id="submit">
+            </form>
+            </div>
+        </main>
+    </body>
+    </html>
